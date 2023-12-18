@@ -26,13 +26,14 @@ nav {
             letter-spacing: 1px;
 
             &:hover {
-                color: $color3;
+                color: $color3_light;
             }
         }
     }
 
     >a>button {
         border: 1px solid $color6_1;
+        border-radius: 5px;
         padding: 0.5rem 2rem;
         background-color: $color1;
         cursor: pointer;

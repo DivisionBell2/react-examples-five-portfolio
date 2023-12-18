@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import vg from "../assets/vg.png";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
 import { addDoc, collection } from "firebase/firestore";
@@ -32,6 +31,26 @@ const Contact = () => {
   }
 
   const animations = {
+    a: {
+      initial: {
+        x: "-100%",
+        opacity: 0
+      },
+      whileInView: {
+        x: 0,
+        opacity: 1
+      }
+    },
+    h2: {
+      initial: {
+        x: "-100%",
+        opacity: 0
+      },
+      whileInView: {
+        x: 0,
+        opacity: 1
+      }
+    },
     form: {
       initial: {
         x: "-100%",
@@ -59,47 +78,43 @@ const Contact = () => {
 
   return (
     <div id="contact">
-      <section>
-        <motion.form
-          onSubmit={submitHandler}
-          {...animations.form}
-        >
-          <h2>Contact Me</h2>
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            placeholder="Your Name"
-            required
-            name="name"
-          />
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Your Email"
-            required
-            name="email"
-          />
-          <input
-            type="text"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            placeholder="Your message"
-            required
-            name="message"
-          />
-          <motion.button
-            disabled={disableBtn}
-            {...animations.button}
-            className={disableBtn ? "disableBtn" : ""}
-            type="submit"
-          >Send</motion.button>
-        </motion.form>
-      </section>
-      <aside>
-        <img src={vg} alt="Graphics" />
-      </aside>
+      <motion.form
+        onSubmit={submitHandler}
+        {...animations.form}
+      >
+        <h2>Contact Me</h2>
+        <motion.a href="https://t.me/alexandrMunirov" target="_blank">Write to telegram</motion.a>
+        <motion.h2>OR</motion.h2>
+        <input
+          type="text"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Your Name"
+          required
+          name="name"
+        />
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Your Email"
+          required
+          name="email"
+        />
+        <textarea
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          placeholder="Your message"
+          required
+          name="message"
+        />
+        <motion.button
+          disabled={disableBtn}
+          {...animations.button}
+          className={disableBtn ? "disableBtn" : ""}
+          type="submit"
+        >Send</motion.button>
+      </motion.form>
     </div>
   );
 };

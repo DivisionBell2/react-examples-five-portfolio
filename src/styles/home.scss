@@ -1,129 +1,202 @@
 #home {
     width: 100%;
-    height: 90vh;
-    display: flex;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid $color6_2;
+    padding-top: 5rem;
 
-    >section {
-        width: 100%;
+    .home-image {
 
-        &:first-of-type {
-            padding-left: $p;
+        position: relative;
+
+        img {
+            display: block;
+            width: 30vmax;
+            object-fit: contain;
+            height: 30vmax;
+            margin: 0 auto;
+        }
+
+        &::after {
+            content: "";
+            width: 30vmax;
+            height: 30vmax;
+            background-color: $color3;
+            position: absolute;
+            z-index: -1;
+            border-radius: 45% 48% 42% 39%;
+            top: 0;
+            left: 0;
+            animation: rotateBack 25s infinite;
+        }
+    }
+
+    .home-text {
+        >div {
+            >h1 {
+                font: 500 3rem $text1;
+            }
+
+            .typewriterpara {
+                display: block;
+                margin: 0 auto;
+                height: 20px;
+                letter-spacing: 3px;
+                font: 400 2rem $text1;
+            }
+
+            article {
+                margin: 2rem 0;
+                width: 20rem;
+                color: $color5;
+                background-color: $color3;
+                padding: 1rem 2rem;
+                border-radius: 10px;
+
+                >p {
+                    font: 600 2rem $text1;
+                }
+
+                >span {
+                    font: 600 1rem $text2;
+                    letter-spacing: 1px;
+                }
+
+
+            }
 
             >div {
-                border-top: 1px solid $color6_2;
-                height: 100%;
-                padding-top: 6rem;
-
-                >h1 {
-                    font: 500 4rem $text1;
-                }
-
-                .typewriterpara {
-                    margin: 20px 0;
-                    height: 20px;
-                    letter-spacing: 5px;
-                }
-
-                >div {
-                    display: flex;
-                    margin: 5rem 0;
-                    width: 70%;
-                    gap: 4rem;
-                    align-items: center;
-
-                    >a {
-                        &:first-of-type {
-                            background-color: $color3;
-                            color: $color1;
-                            padding: 1rem 2.5rem;
-                            transition: all 0.3rem;
-
-                            &:hover {
-                                background-color: $color3_1;
-                            }
-                        }
-
-                        &:last-of-type {
-                            font: 600 1.2rem $text2;
-                            color: $color5;
-                            display: flex;
-                            align-items: center;
-                        }
-                    }
-                }
-
-                aside {
-                    display: flex;
-                    justify-content: space-between;
-                    width: 70%;
-                }
-
-                article {
+                >a {
+                    display: block;
                     margin: 2rem 0;
-                    width: 10rem;
-                    color: $color5;
-                    position: relative;
+                    width: 20rem;
+                    padding: 1rem 2rem;
+                    border-radius: 10px;
+                    border: 1px solid $color6_1;
+                    background-color: $color1;
+                    cursor: pointer;
+                    color: $color6;
+                    font: 600 1.5rem $text1;
+                    transition: all 0.3s;
+                    text-align: center;
+                    letter-spacing: 1px;
 
-                    &::after {
-                        content: "";
-                        background-color: $color4;
-                        width: 100%;
-                        height: 5rem;
-                        border-radius: 50px;
-                        position: absolute;
-                        top: 20%;
-                        left: 20%;
-                        z-index: -1;
+                    &:hover {
+                        background-color: $color6;
+                        color: $color3_light;
                     }
-
-                    > p {
-                        font: 900 2rem $text1;
-                    }
-
-                    > span {
-                        font: 500 1rem $text2;
-                    }
-                }
-
-                article[data-special] {
-                    width: 16rem;
                 }
             }
         }
 
-        &:last-of-type {
-            border-top: 1px solid $color6_2;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            align-items: center;
-            overflow-x: hidden;
-
-            &::after {
-                content: "";
-                width: 40vmax;
-                height: 40vmax;
-                background-color: $color3;
-                position: absolute;
-                z-index: -1;
-                border-radius: 50%;
-            }
-
-            >img {
-                width: 40vmax;
-                object-fit: contain;
-                height: 40vmax;
-            }
-        }
     }
 
-    >svg {
-        position: absolute;
-        font-size: 4rem;
-        color: $color5;
-        left: 50%;
-        bottom: 5%;
-        transform: translateX(-50%);
-        animation: animateSvg 0.7s infinite linear alternate
-    }
+    // >section {
+    //     width: 100%;
+
+    //     &:first-of-type {
+    //         padding-left: $p;
+
+    //         >div {
+    //             border-top: 1px solid $color6_2;
+    //             height: 100%;
+    //             padding-top: 6rem;
+
+    //             >h1 {
+    //                 font: 500 4rem $text1;
+    //             }
+
+    //             .typewriterpara {
+    //                 margin: 20px 0;
+    //                 height: 20px;
+    //                 letter-spacing: 5px;
+    //             }
+
+    //             >div {
+    //                 display: flex;
+    //                 margin: 5rem 0;
+    //                 width: 70%;
+    //                 gap: 4rem;
+    //                 align-items: center;
+
+    //                 >a {
+    //                     &:first-of-type {
+    //                         background-color: $color3;
+    //                         color: $color1;
+    //                         padding: 1rem 2.5rem;
+    //                         transition: all 0.3rem;
+
+    //                         &:hover {
+    //                             background-color: $color3_1;
+    //                         }
+    //                     }
+
+    //                     &:last-of-type {
+    //                         font: 600 1.2rem $text2;
+    //                         color: $color5;
+    //                         display: flex;
+    //                         align-items: center;
+    //                     }
+    //                 }
+    //             }
+
+    //             aside {
+    //                 display: flex;
+    //                 justify-content: space-between;
+    //                 width: 70%;
+    //             }
+
+    //             article {
+    //                 margin: 2rem 0;
+    //                 width: 10rem;
+    //                 color: $color5;
+    //                 position: relative;
+
+    //                 &::after {
+    //                     content: "";
+    //                     background-color: $color4;
+    //                     width: 100%;
+    //                     height: 5rem;
+    //                     border-radius: 50px;
+    //                     position: absolute;
+    //                     top: 20%;
+    //                     left: 20%;
+    //                     z-index: -1;
+    //                 }
+
+    //                 >p {
+    //                     font: 900 2rem $text1;
+    //                 }
+
+    //                 >span {
+    //                     font: 500 1rem $text2;
+    //                 }
+    //             }
+
+    //             article[data-special] {
+    //                 width: 16rem;
+    //             }
+    //         }
+    //     }
+
+    //     &:last-of-type {
+    //         border-top: 1px solid $color6_2;
+    //         display: flex;
+    //         flex-direction: column;
+    //         justify-content: flex-end;
+    //         align-items: center;
+    //         overflow-x: hidden;
+    //     }
+    // }
+
+    // >svg {
+    //     position: absolute;
+    //     font-size: 4rem;
+    //     color: $color5;
+    //     left: 50%;
+    //     bottom: 5%;
+    //     transform: translateX(-50%);
+    //     animation: animateSvg 0.7s infinite linear alternate
+    // }
 }

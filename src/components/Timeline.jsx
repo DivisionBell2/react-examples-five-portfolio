@@ -8,9 +8,17 @@ const Timeline = () => {
         {data.projects.map((item, index) => (
           <TimelineItem
             heading={item.title}
-            text={item.date}
+            date={item.date}
             index={index}
             key={item.title}
+            category={item.category}
+            side={item.side}
+            description={item.description}
+            url={item.url}
+            urlName={item.urlName}
+            skills={item.skills}
+            exampleUrl={item.exampleUrl}
+            exampleUrlName={item.exampleUrlName}
           />
         ))}
       </div>
@@ -18,15 +26,21 @@ const Timeline = () => {
   );
 };
 
-const TimelineItem = ({ heading, text, index }) => (
+const TimelineItem = ({ heading, date, category, side, description, url, urlName, skills, exampleUrl, exampleUrlName }) => (
   <div
-    className={`timelineItem ${
-      index % 2 === 0 ? "leftTimeline" : "rightTimeline"
-    }`}
+    className={`
+    timelineItem
+    ${side === 'left' ? "leftTimeline" : "rightTimeline"}
+    ${category}
+    `}
   >
-    <div>
+    <div className={'timelineItemInfo'}>
+      <p className={'date'}>{date}</p>
       <h2>{heading}</h2>
-      <p>{text}</p>
+      <p>{description}</p>
+      <p><a href={url} target={"_blank"}>{urlName}</a></p>
+      <p><a href={exampleUrl} target={"_blank"}>{exampleUrlName}</a></p>
+      <p className="skills">skills: {skills}</p>
     </div>
   </div>
 );
