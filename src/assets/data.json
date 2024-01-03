@@ -1,11 +1,27 @@
 {
     "projects": [
       {
+        "date": "Dec 2021",
+        "category": "study",
+        "title": "",
+        "side": "left",
+        "description": "ended course of e2e testing with Jest (Typescript)",
+        "skills": "ui testing, typescript, jest"
+      },
+      {
+        "date": "Nov 2021",
+        "category": "study",
+        "title": "",
+        "side": "left",
+        "description": "ended several courses of project management in Sber School",
+        "skills": "project management"
+      },
+      {
         "date": "Sep 2021 - May 2022",
         "category": "work",
         "title": "DELOVAYA SREDA (SBER)",
         "side": "right",
-        "description": "Projects started using load testing with JMeter",
+        "description": "projects started using load testing with JMeter",
         "skills": "performance testing, jmeter"
       },
       {
@@ -14,14 +30,16 @@
         "title": "",
         "side": "left",
         "description": "ended course of load testing with JMeter",
-        "skills": "performance testing, jmeter"
+        "skills": "performance testing, jmeter",
+        "exampleUrl": "https://github.com/DivisionBell2/api-ms-tests-java",
+        "exampleUrlName": "example"
       },
       {
         "date": "Aug 2021 - May 2022",
         "category": "work",
         "title": "DELOVAYA SREDA (SBER)",
         "side": "right",
-        "description": "Promoted to the lead of QA on all projects of the company (5 projects). Engaged in recruitment, learining of testers (including to test automation positions), support and development of testing infrastructure, creation of CI (Teamcity, GitlabCI) for all microservices of the company.",
+        "description": "promoted to the lead of QA on all projects of the company (5 projects). Engaged in recruitment, learining of testers (including to test automation positions), support and development of testing infrastructure, creation of CI (Teamcity, GitlabCI) for all microservices of the company.",
         "skills": "automation ui testing, typescript, codeceptjs, teamcity, moon, allure, ci, qa learning, human resources qa"
       },
       {
