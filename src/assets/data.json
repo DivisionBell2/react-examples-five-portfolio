@@ -1,6 +1,14 @@
 {
     "projects": [
       {
+        "date": "Apr 2022",
+        "category": "study",
+        "title": "",
+        "side": "left",
+        "description": "started learning new autotesters from manual QA with Java (Selenide)",
+        "skills": "ui testing, api testing, restassured, selenide, gradle"
+      },
+      {
         "date": "Dec 2021",
         "category": "study",
         "title": "",

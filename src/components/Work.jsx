@@ -16,6 +16,7 @@ import { HiOutlineMagnifyingGlass } from "react-icons/hi2";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript, BiLogoPhp } from "react-icons/bi";
 import { SiSelenium, SiKotlin, SiCodeceptjs, SiApachejmeter } from "react-icons/si";
+import { FaProjectDiagram } from "react-icons/fa";
 
 const Work = () => {
     const data = [
@@ -93,14 +94,8 @@ const Work = () => {
             <div className="workItemBody">
                 <div>
                     <div className="primary">
-                        <IoLogoChrome />
-                        <GrFirefox />
-                        <HiOutlineMagnifyingGlass />
-                    </div>
-                    <div className="secondary">
-                        <IoLogoChrome />
-                        <GrFirefox />
-                        <HiOutlineMagnifyingGlass />
+                        <FaProjectDiagram />
+                        <AiOutlineFundProjectionScreen />
                     </div>
                 </div>
 

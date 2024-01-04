@@ -74,14 +74,22 @@
 }
 
 @media screen and (max-width: 1100px) {
+  nav {
+    padding: 0 $p_sm;
+    > h2 {
+      font-size: 1.8rem;
+    }
+    > div {
+      gap: 1rem;
+    }
+  }
+
   #services {
     height: 100vh;
     padding-top: 3rem;
     padding-bottom: 3rem;
 
-
     > section {
-
       > * {
         > svg {
           color: $color5;
@@ -114,20 +122,19 @@
     .Typewriter {
       padding-top: 2rem;
     }
- 
-    > section { 
+
+    > section {
       .workItem {
         padding-top: 1rem;
-  
+
         > h3 {
           font: 600 1.8rem $text1;
         }
       }
-  
+
       .workItemBody {
         width: 100%;
         > div {
- 
           > .primary svg {
             margin: 0 20px;
           }
@@ -137,14 +144,14 @@
             height: 100px;
             margin: 0 20px;
           }
-  
+
           > .secondary svg {
             width: 50px;
             height: 50px;
             margin: 0 20px;
           }
         }
-  
+
         > aside {
           > p {
             font: 500 1.4rem $text1;
@@ -153,52 +160,149 @@
       }
     }
   }
-  
 }
 
-// @media screen and (max-width: 1100px) {
-//   nav {
-//     padding: 0 $p_base;
-//   }
+@media screen and (max-width: 900px) {
+  #services {
+    height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 
-//   #home {
-//     height: 110vh;
-//     > section {
-//       &:first-of-type {
-//         padding-left: $p_base;
-//         > div {
-//           > h1 {
-//             font: 900 3rem $text1;
-//           }
+    > section {
+      > * {
+        > svg {
+          color: $color5;
+          font-size: 2.5rem;
+        }
 
-//           aside {
-//             width: 100%;
-//           }
-//         }
-//       }
-//     }
-//   }
+        > span {
+          margin: 0rem;
+        }
+      }
 
-//   #work {
-//     padding: 8rem $p_base;
-//   }
+      .serviceBox1 {
+        > h3 {
+          font: 300 4.5rem $text1;
 
-//   #services {
-//     padding: $p_base_inverse;
-//     text-align: center;
-//   }
-// }
+          > span {
+            font: 300 4.5rem $text1;
+          }
+        }
+
+        > p {
+          font: 700 1.1rem $text2;
+        }
+      }
+    }
+  }
+
+  #timeline {
+    .timelineBox {
+      .timelineItem {
+        .timelineItemInfo {
+          P {
+            font: 300 0.8rem $text1;
+            line-height: 1.1rem;
+          }
+          > p.skills {
+            font: 400 0.8rem $text1;
+            line-height: 1.1rem;
+          }
+          > p.date {
+            font: 400 0.9rem $text1;
+          }
+        }
+      }
+    }
+  }
+
+  #work {
+    height: 65vh;
+    .Typewriter {
+      padding-top: 1.5rem;
+    }
+
+    > section {
+      .workItemBody {
+        width: 100%;
+        > div {
+          > .primary svg {
+            margin: 0 15px;
+          }
+
+          > .primary svg {
+            width: 80px;
+            height: 80px;
+            margin: 0 15px;
+          }
+
+          > .secondary svg {
+            width: 45px;
+            height: 45px;
+            margin: 0 15px;
+          }
+        }
+
+        > aside {
+          > p {
+            font: 400 1.2rem $text1;
+          }
+        }
+      }
+    }
+  }
+
+  // #work {
+  //   > section {
+  //     .workItem {
+  //       padding-top: 1rem;
+
+  //       > h3 {
+  //         font: 600 1.8rem $text1;
+  //       }
+  //     }
+
+  //     .workItemBody {
+  //       width: 100%;
+  //       > div {
+
+  //         > .primary svg {
+  //           margin: 0 20px;
+  //         }
+
+  //         > .primary svg {
+  //           width: 100px;
+  //           height: 100px;
+  //           margin: 0 20px;
+  //         }
+
+  //         > .secondary svg {
+  //           width: 50px;
+  //           height: 50px;
+  //           margin: 0 20px;
+  //         }
+  //       }
+
+  //       > aside {
+  //         > p {
+  //           font: 500 1.4rem $text1;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+}
 
 // @media screen and (max-width: 900px) {
-//   nav {
-//     padding: 0 $p_sm;
-//     > h2 {
-//       font-size: 1.8rem;
-//     }
-//     > div {
-//       gap: 1rem;
-//     }
+// nav {
+//   padding: 0 $p_sm;
+//   > h2 {
+//     font-size: 1.8rem;
 //   }
+//   > div {
+//     gap: 1rem;
+//   }
+// }
 
 //   #home {
 //     > section {
