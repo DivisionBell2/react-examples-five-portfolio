@@ -1,11 +1,21 @@
 {
     "projects": [
       {
-        "date": "Apr 2022",
-        "category": "study",
-        "title": "",
-        "side": "left",
-        "description": "started learning new autotesters from manual QA with Java (Selenide)",
+        "date": "May 2022 - Aug 2022",
+        "category": "work",
+        "title": "DELOVAYA SREDA (SBER)",
+        "side": "right",
+        "description": "Moved the company's e2e tests from CodeceptJS to Playwright (typescript) and started execution autotests in docker with gitlab CI.",
+        "skills": "automation ui testing, typescript, playwright, gitlab, ci, qa learning, docker",
+        "exampleUrl": "https://github.com/DivisionBell2/ds-playwright-testrunner",
+        "exampleUrlName": "example"
+      },
+      {
+        "date": "Apr 2022 - Aug 2022",
+        "category": "work",
+        "title": "DELOVAYA SREDA (SBER)",
+        "side": "right",
+        "description": "learning new autotesters from manual QA with Java (Selenide)",
         "skills": "ui testing, api testing, restassured, selenide, gradle"
       },
       {
@@ -25,7 +35,7 @@
         "skills": "project management"
       },
       {
-        "date": "Sep 2021 - May 2022",
+        "date": "Sep 2021 - Aug 2022",
         "category": "work",
         "title": "DELOVAYA SREDA (SBER)",
         "side": "right",
@@ -43,7 +53,7 @@
         "exampleUrlName": "example"
       },
       {
-        "date": "Aug 2021 - May 2022",
+        "date": "Aug 2021 - Aug 2022",
         "category": "work",
         "title": "DELOVAYA SREDA (SBER)",
         "side": "right",
