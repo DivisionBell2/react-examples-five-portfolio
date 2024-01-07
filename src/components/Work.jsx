@@ -17,6 +17,8 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript, BiLogoPhp } from "react-icons/bi";
 import { SiSelenium, SiKotlin, SiCodeceptjs, SiApachejmeter } from "react-icons/si";
 import { FaProjectDiagram } from "react-icons/fa";
+import { SiTeamcity, SiGitlab, SiTelegram, SiJenkins, SiDocker } from "react-icons/si";
+import { BsGraphUpArrow } from "react-icons/bs";
 
 const Work = () => {
     const data = [
@@ -109,14 +111,8 @@ const Work = () => {
             <div className="workItemBody">
                 <div>
                     <div className="primary">
-                        <IoLogoChrome />
-                        <GrFirefox />
-                        <HiOutlineMagnifyingGlass />
-                    </div>
-                    <div className="secondary">
-                        <IoLogoChrome />
-                        <GrFirefox />
-                        <HiOutlineMagnifyingGlass />
+                        <MdCastForEducation />
+                        <BsGraphUpArrow />
                     </div>
                 </div>
 
@@ -130,14 +126,13 @@ const Work = () => {
             <div className="workItemBody">
                 <div>
                     <div className="primary">
-                        <IoLogoChrome />
-                        <GrFirefox />
-                        <HiOutlineMagnifyingGlass />
+                        <SiTeamcity />
+                        <SiGitlab />
                     </div>
                     <div className="secondary">
-                        <IoLogoChrome />
-                        <GrFirefox />
-                        <HiOutlineMagnifyingGlass />
+                        <SiJenkins />
+                        <SiDocker />
+                        <SiTelegram/>
                     </div>
                 </div>
 

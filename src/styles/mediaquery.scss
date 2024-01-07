@@ -13,7 +13,7 @@
       padding-bottom: 1rem;
     }
 
-    > section {
+    >section {
       height: 90%;
     }
   }
@@ -29,12 +29,12 @@
       padding-bottom: 5rem;
     }
 
-    > section {
+    >section {
       margin: 0 auto;
       width: 95%;
       height: 90%;
 
-      > article {
+      >article {
         width: 100%;
         height: 100%;
       }
@@ -42,7 +42,7 @@
       .workItem {
         height: 50vh;
 
-        > h3 {
+        >h3 {
           padding: 1rem 0 0;
           font: 600 2rem $text1;
           color: $color5;
@@ -52,8 +52,8 @@
       .workItemBody {
         height: 100%;
 
-        > div {
-          > .primary svg {
+        >div {
+          >.primary svg {
             width: 110px;
             height: 110px;
 
@@ -63,7 +63,7 @@
             }
           }
 
-          > .secondary svg {
+          >.secondary svg {
             width: 50px;
             height: 50px;
           }
@@ -76,10 +76,12 @@
 @media screen and (max-width: 1100px) {
   nav {
     padding: 0 $p_sm;
-    > h2 {
+
+    >h2 {
       font-size: 1.8rem;
     }
-    > div {
+
+    >div {
       gap: 1rem;
     }
   }
@@ -89,28 +91,28 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
 
-    > section {
-      > * {
-        > svg {
+    >section {
+      >* {
+        >svg {
           color: $color5;
           font-size: 2.5rem;
         }
 
-        > span {
+        >span {
           margin: 0rem;
         }
       }
 
       .serviceBox1 {
-        > h3 {
+        >h3 {
           font: 300 4.5rem $text1;
 
-          > span {
+          >span {
             font: 300 4.5rem $text1;
           }
         }
 
-        > p {
+        >p {
           font: 700 1.1rem $text2;
         }
       }
@@ -119,41 +121,43 @@
 
   #work {
     height: 65vh;
+
     .Typewriter {
       padding-top: 2rem;
     }
 
-    > section {
+    >section {
       .workItem {
         padding-top: 1rem;
 
-        > h3 {
+        >h3 {
           font: 600 1.8rem $text1;
         }
       }
 
       .workItemBody {
         width: 100%;
-        > div {
-          > .primary svg {
+
+        >div {
+          >.primary svg {
             margin: 0 20px;
           }
 
-          > .primary svg {
+          >.primary svg {
             width: 100px;
             height: 100px;
             margin: 0 20px;
           }
 
-          > .secondary svg {
+          >.secondary svg {
             width: 50px;
             height: 50px;
             margin: 0 20px;
           }
         }
 
-        > aside {
-          > p {
+        >aside {
+          >p {
             font: 500 1.4rem $text1;
           }
         }
@@ -168,83 +172,87 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
 
-    > section {
-      > * {
-        > svg {
+    >section {
+      >* {
+        >svg {
           color: $color5;
           font-size: 2.5rem;
         }
 
-        > span {
+        >span {
           margin: 0rem;
         }
       }
 
       .serviceBox1 {
-        > h3 {
+        >h3 {
           font: 300 4.5rem $text1;
 
-          > span {
+          >span {
             font: 300 4.5rem $text1;
           }
         }
 
-        > p {
-          font: 700 1.1rem $text2;
+        >p {
+          font: 700 1rem $text2;
         }
+      }
+
+      .serviceBox2 {
+        >*:last-child {
+          font: 600 1.1rem $text2;
+          letter-spacing: 1px;
+      }
       }
     }
   }
 
   #timeline {
-    .timelineBox {
-      .timelineItem {
-        .timelineItemInfo {
-          P {
-            font: 300 0.8rem $text1;
-            line-height: 1.1rem;
-          }
-          > p.skills {
-            font: 400 0.8rem $text1;
-            line-height: 1.1rem;
-          }
-          > p.date {
-            font: 400 0.9rem $text1;
-          }
+    .timelineItem {
+      >.timelineItemInfo {
+        >h2 {
+          font: 300 1.1rem $text1;
+        }
+
+        >p {
+          font: 300 0.9rem $text1;
         }
       }
     }
+
   }
 
   #work {
     height: 65vh;
+
     .Typewriter {
       padding-top: 1.5rem;
     }
 
-    > section {
+    >section {
       .workItemBody {
         width: 100%;
-        > div {
-          > .primary svg {
+
+        >div {
+          >.primary svg {
             margin: 0 15px;
           }
 
-          > .primary svg {
+          >.primary svg {
             width: 80px;
             height: 80px;
             margin: 0 15px;
           }
 
-          > .secondary svg {
+          >.secondary svg {
             width: 45px;
             height: 45px;
             margin: 0 15px;
           }
         }
 
-        > aside {
-          > p {
+        >aside {
+          >p {
             font: 400 1.2rem $text1;
           }
         }
@@ -252,143 +260,29 @@
     }
   }
 
-  // #work {
-  //   > section {
-  //     .workItem {
-  //       padding-top: 1rem;
+  #contact>form {
+    >h2 {
+      font: 100 2.3rem $text2;
+    }
 
-  //       > h3 {
-  //         font: 600 1.8rem $text1;
-  //       }
-  //     }
-
-  //     .workItemBody {
-  //       width: 100%;
-  //       > div {
-
-  //         > .primary svg {
-  //           margin: 0 20px;
-  //         }
-
-  //         > .primary svg {
-  //           width: 100px;
-  //           height: 100px;
-  //           margin: 0 20px;
-  //         }
-
-  //         > .secondary svg {
-  //           width: 50px;
-  //           height: 50px;
-  //           margin: 0 20px;
-  //         }
-  //       }
-
-  //       > aside {
-  //         > p {
-  //           font: 500 1.4rem $text1;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
+    >input,
+    >button,
+    >textarea,
+    >a {
+      width: 65%;
+    }
+  }
 }
-
-// @media screen and (max-width: 900px) {
-// nav {
-//   padding: 0 $p_sm;
-//   > h2 {
-//     font-size: 1.8rem;
-//   }
-//   > div {
-//     gap: 1rem;
-//   }
-// }
-
-//   #home {
-//     > section {
-//       &:first-of-type {
-//         padding-left: $p_sm;
-//         > div {
-//           > div {
-//             gap: 2rem;
-//             width: 100%;
-//           }
-//           aside {
-//             flex-direction: column;
-//           }
-//         }
-//       }
-//     }
-//   }
-
-//   #work {
-//     padding: 8rem $p_zero;
-//     > section {
-//       > article {
-//         height: 25rem;
-//       }
-//       .workItem {
-//         height: 25rem;
-//       }
-//     }
-//   }
-
-//   #services {
-//     padding: $p_sm_inverse;
-//     height: 90vh;
-//   }
-//   #testimonial {
-//     padding: $p_zero;
-//     > h2 {
-//       padding: 3rem;
-//       margin-bottom: 0%;
-//     }
-//     > section {
-//       padding: 3rem;
-//       height: 45rem;
-//       justify-content: space-evenly;
-
-//       > article {
-//         width: 40%;
-//         height: 50%;
-//       }
-//     }
-//   }
-
-//   #contact > section > form {
-//     > h2 {
-//       font: 100 2.3rem $text2;
-//     }
-//     > input,
-//     > button {
-//       width: 65%;
-//     }
-//   }
-
-//   footer {
-//     padding-left: $p_zero;
-//     grid-template-columns: 1fr;
-//     > div {
-//       width: 100%;
-//       border: none;
-//       p {
-//         width: 50%;
-//         margin: 2rem auto;
-//       }
-//     }
-//     > a {
-//       margin: 1rem;
-//     }
-//   }
-// }
 
 @media screen and (max-width: 786px) {
   nav {
-    > div,
-    > a {
+
+    >div,
+    >a {
       display: none;
     }
   }
+
   .navBtn {
     display: block;
   }
@@ -399,22 +293,25 @@
     height: unset;
     flex-direction: column-reverse;
 
-    > section {
+    >section {
       &:first-of-type {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
 
-        > div {
+        >div {
           border: none;
           padding-top: 3rem;
-          > h1 {
+
+          >h1 {
             font: 900 2.5rem $text1;
           }
-          > div {
+
+          >div {
             flex-direction: column;
           }
+
           aside {
             align-items: center;
           }
@@ -424,6 +321,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+
             span {
               display: block;
               width: 70%;
@@ -434,6 +332,7 @@
           article {
             width: 100%;
             text-align: center;
+
             &::after {
               top: 0;
               left: 0%;
@@ -447,36 +346,38 @@
       }
     }
 
-    > svg {
+    >svg {
       font-size: 2rem;
       bottom: 12%;
     }
   }
 
   #work {
-    > section {
-      > article {
+    >section {
+      >article {
         width: 100%;
         height: 30vmax;
       }
+
       .workItem {
         height: 30vmax;
         box-shadow: 0 0 5px $color1;
-        > aside {
+
+        >aside {
           padding: 1rem;
 
-          > h3 {
+          >h3 {
             margin: 1rem;
           }
 
-          > p {
+          >p {
             letter-spacing: 0;
             line-height: unset;
             margin: 0%;
             font-size: 0.75rem;
           }
 
-          > a {
+          >a {
             padding: 0.4rem 0.7rem;
             font-size: 0.7rem;
             margin: 1rem;
@@ -500,6 +401,7 @@
     .rightTimeline {
       left: 0%;
     }
+
     .leftTimeline,
     .rightTimeline {
       &::after {
@@ -509,10 +411,11 @@
   }
 
   #services {
-    > section {
+    >section {
       margin: 3rem 0;
       grid-template-columns: repeat(2, 1fr);
       gap: 1rem;
+
       .serviceBox1 {
         grid-column: 1/3;
         grid-row: unset;
@@ -523,10 +426,12 @@
       }
     }
   }
-  #testimonial > section {
+
+  #testimonial>section {
     height: unset;
     gap: 3rem;
-    > article {
+
+    >article {
       width: 100%;
       height: 100vw;
     }
@@ -534,7 +439,8 @@
 
   #contact {
     grid-template-columns: 1fr;
-    > aside {
+
+    >aside {
       display: none;
     }
   }

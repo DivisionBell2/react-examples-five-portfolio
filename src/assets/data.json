@@ -1,5 +1,16 @@
 {
+  
     "projects": [
+      {
+        "date": "Aug 2022 - Now",
+        "category": "work",
+        "title": "DDX TECH",
+        "side": "left",
+        "description": "started working on DDX Fitness company as the only one automation QA. Writed from scratch API and E2E autotests with Playwright (Typescript) for company web services and executing them with docker in Gitlab CI",
+        "skills": "automation ui testing, automation api testing, typescript, playwright, gitlab, ci, docker",
+        "url": "https://www.ddxfitness.ru/",
+        "urlName": "ddx site"
+      },
       {
         "date": "May 2022 - Aug 2022",
         "category": "work",
@@ -76,9 +87,17 @@
         "title": "DELOVAYA SREDA (SBER) -> RBO",
         "side": "right",
         "description": "started developing E2E tests from scratch for the project with CodeceptJS (Typescript). Implemented execution of automated tests in CI (Teamcity, Moon)",
-        "skills": "automation ui testing, typescript, codeceptjs, teamcity, moon, allure",
-        "exampleUrl": "https://github.com/DivisionBell2/ds-codecept",
-        "exampleUrlName": "example"
+        "skills": "automation ui testing, typescript, codeceptjs, teamcity, moon, allure"
+      },
+      {
+        "date": "Jun 2021",
+        "category": "work",
+        "title": "DELOVAYA SREDA (SBER) -> RBO",
+        "side": "right",
+        "description": "released web service for creating an electronic signature and signing documents with it",
+        "skills": "manual web testing, microservices",
+        "url": "https://rbo.dasreda.ru/",
+        "urlName": "rbo.dasreda.ru"
       },
       {
         "date": "Apr 2020 - Aug 2022",
