@@ -90,6 +90,14 @@
         "skills": "automation ui testing, typescript, codeceptjs, teamcity, moon, allure"
       },
       {
+        "date": "Aug 2021",
+        "category": "work",
+        "title": "DELOVAYA SREDA (SBER) -> RBO",
+        "side": "right",
+        "description": "released web service for online business registration on Sber website",
+        "skills": "manual web testing, microservices"
+      },
+      {
         "date": "Jun 2021",
         "category": "work",
         "title": "DELOVAYA SREDA (SBER) -> RBO",
