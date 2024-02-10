@@ -9,7 +9,7 @@
     .Typewriter {
       font: 100 2rem $text1;
       flex-grow: 1;
-      padding-top: 4rem;
+      padding-top: 5rem;
       padding-bottom: 1rem;
     }
 
@@ -113,7 +113,8 @@
         }
 
         >p {
-          font: 700 1.1rem $text2;
+          font: 600 1rem $text2;
+          letter-spacing: 1px;
         }
       }
     }
@@ -194,15 +195,15 @@
         }
 
         >p {
-          font: 700 1rem $text2;
+          font: 500 0.9rem $text2;
         }
       }
 
       .serviceBox2 {
         >*:last-child {
-          font: 600 1.1rem $text2;
+          font: 500 1.1rem $text2;
           letter-spacing: 1px;
-      }
+        }
       }
     }
   }
@@ -285,6 +286,79 @@
 
   .navBtn {
     display: block;
+  }
+
+  #services {
+
+    .Typewriter {
+      margin: 0;
+  }
+  .typewriterpara {
+      width: 100%;
+      margin-bottom: 1rem;
+  }
+
+    >section {
+      margin: 3rem 0;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      
+      .serviceBox1 {
+        grid-column: 1 / 4;
+        height: 30vh;
+        grid-row: unset;
+
+        >h3 {
+          font: 200 4.0rem $text1;
+
+          >span {
+            font: 200 4.0rem $text1;
+          }
+        }
+
+        >p {
+          font: 500 1rem $text2;
+          margin-bottom: 1.5rem;
+        }
+      }
+
+      .serviceBox2 {
+        grid-column: 1 / 4;
+
+
+        >*:first-child {
+          margin: 5px;
+        }
+
+        >*:last-child {
+          font: 500 1rem $text2;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+
+  #timeline {
+    .timelineBox::after {
+      left: 31px;
+    }
+
+    .timelineItem {
+      width: 100%;
+      padding-left: 5rem;
+      padding-right: 2rem;
+    }
+
+    .rightTimeline {
+      left: 0%;
+    }
+
+    .leftTimeline,
+    .rightTimeline {
+      &::after {
+      left: 20px;
+      }
+    }
   }
 }
 
@@ -387,29 +461,6 @@
     }
   }
 
-  #timeline {
-    .timelineBox::after {
-      left: 31px;
-    }
-
-    .timelineItem {
-      width: 100%;
-      padding-left: 5rem;
-      padding-right: 2rem;
-    }
-
-    .rightTimeline {
-      left: 0%;
-    }
-
-    .leftTimeline,
-    .rightTimeline {
-      &::after {
-        left: 15px;
-      }
-    }
-  }
-
   #services {
     >section {
       margin: 3rem 0;
@@ -417,12 +468,7 @@
       gap: 1rem;
 
       .serviceBox1 {
-        grid-column: 1/3;
         grid-row: unset;
-      }
-
-      .serviceBox4 {
-        grid-column: 1/3;
       }
     }
   }

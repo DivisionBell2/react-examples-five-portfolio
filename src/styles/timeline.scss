@@ -132,6 +132,20 @@
         
     }
 
+    .timelineItem.year {
+        .timelineItemInfo {
+            background-color: $color1;
+            p.skills {
+                display: none;
+            }
+            h2 {
+                color: $color5;
+                font: 400 1.3rem $text1;
+            }
+        }
+        
+    }
+
     .leftTimeline {
         left: 0%;
     }

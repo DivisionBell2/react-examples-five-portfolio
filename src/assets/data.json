@@ -2,6 +2,91 @@
   
     "projects": [
       {
+        "title": "2024",
+        "category": "year",
+        "side": "right"
+      },
+      {
+        "title": "2023",
+        "category": "year",
+        "side": "right"
+      },
+      {
+        "date": "Sep 2023 - Now",
+        "category": "work",
+        "title": "DDX TECH",
+        "side": "left",
+        "description": "started using performance testing with k6 for company services",
+        "skills": "performance testing k6"
+      },
+      {
+        "date": "Jul 2023 - Now",
+        "category": "work",
+        "title": "DDX TECH",
+        "side": "left",
+        "description": "writed service for search and making test data for test stands of company. The cervice writed on nodejs and integrated to telegram bot. This service includes more than 40 data options for each of three stands",
+        "skills": "telegram bots, nodejs"
+      },
+      {
+        "date": "Jun 2023 - Now",
+        "category": "work",
+        "title": "DDX TECH",
+        "side": "left",
+        "description": "included full CI-circle for each task with automation testing that deployed to testing in GitlabCI",
+        "skills": "gitlab ci"
+      },
+      {
+        "date": "May 2023 - Now",
+        "category": "work",
+        "title": "DDX TECH",
+        "side": "left",
+        "description": "writed inner course for automatization testing learning for manual testers",
+        "skills": "automation ui testing, automation api testing, typescript, playwright, qa learning"
+      },
+      {
+        "date": "Feb 2023 - Now",
+        "category": "work",
+        "title": "DDX TECH",
+        "side": "left",
+        "description": "promoted to the lead of QA . Engaged in recruitment, learining of testers (including to test automation positions), support and development of testing infrastructure",
+        "skills": "automation ui testing, automation api testing, typescript, playwright, gitlab, ci, docker, qa learning, human resources qa"
+      },
+      {
+        "title": "2022",
+        "category": "year",
+        "side": "right"
+      },
+      {
+        "date": "Dec 2022",
+        "category": "study",
+        "title": "",
+        "side": "right",
+        "description": "done first study restfull-backend microservice project with Java and Spring",
+        "skills": "backend, api, java, spring, gradle, hibernate",
+        "exampleUrl": "https://github.com/DivisionBell2/planner-micro-java",
+        "exampleUrlName": "example"
+      },
+      {
+        "date": "Nov 2022",
+        "category": "study",
+        "title": "",
+        "side": "right",
+        "description": "done first study restfull-backend project with Kotlin and Spring",
+        "skills": "backend, api, kotlin, spring, gradle, hibernate",
+        "exampleUrl": "https://github.com/DivisionBell2/kotlin-restfull-backend",
+        "exampleUrlName": "example"
+      },
+      {
+        "date": "Oct 2022",
+        "category": "study",
+        "title": "",
+        "side": "right",
+        "description": "done first study restfull-backend project with Java and Spring",
+        "skills": "backend, api, java, spring, gradle, hibernate",
+        "exampleUrl": "https://github.com/DivisionBell2/java-restfull-backend",
+        "exampleUrlName": "example"
+      },
+      {
         "date": "Aug 2022 - Now",
         "category": "work",
         "title": "DDX TECH",
@@ -28,6 +113,11 @@
         "side": "right",
         "description": "learning new autotesters from manual QA with Java (Selenide)",
         "skills": "ui testing, api testing, restassured, selenide, gradle"
+      },
+      {
+        "title": "2021",
+        "category": "year",
+        "side": "left"
       },
       {
         "date": "Dec 2021",
@@ -82,6 +172,11 @@
         "skills": "automation mobile testing, java, appium, maven, junit, allure"
       },
       {
+        "title": "2020",
+        "category": "year",
+        "side": "right"
+      },
+      {
         "date": "Aug 2020 - May 2022",
         "category": "work",
         "title": "DELOVAYA SREDA (SBER) -> RBO",
@@ -90,7 +185,7 @@
         "skills": "automation ui testing, typescript, codeceptjs, teamcity, moon, allure"
       },
       {
-        "date": "Aug 2021",
+        "date": "Aug 2020",
         "category": "work",
         "title": "DELOVAYA SREDA (SBER) -> RBO",
         "side": "right",
@@ -98,7 +193,7 @@
         "skills": "manual web testing, microservices"
       },
       {
-        "date": "Jun 2021",
+        "date": "Jun 2020",
         "category": "work",
         "title": "DELOVAYA SREDA (SBER) -> RBO",
         "side": "right",
@@ -126,6 +221,11 @@
         "skills": "manual web testing, microservices",
         "url": "https://rbo.dasreda.ru/",
         "urlName": "rbo.dasreda.ru"
+      },
+      {
+        "title": "2019",
+        "category": "year",
+        "side": "left"
       },
       {
         "date": "Jan 2019 - May 2020",
@@ -206,6 +306,11 @@
         "side": "right",
         "description": "worked on the project of online store butik.ru (now no longer exists) as manual tester",
         "skills": "manual web testing"
+      },
+      {
+        "title": "2018",
+        "category": "year",
+        "side": "left"
       },
       {
         "date": "Nov 2018 - March 2020",
