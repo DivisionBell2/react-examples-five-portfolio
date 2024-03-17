@@ -44,6 +44,16 @@
         "skills": "automation ui testing, automation api testing, typescript, playwright, qa learning"
       },
       {
+        "date": "March 2023",
+        "category": "study",
+        "title": "",
+        "side": "right",
+        "description": "studied selenium cucumber autotests with java",
+        "skills": "java, maven, cucumber",
+        "exampleUrl": "https://github.com/DivisionBell2/java-selenium-cucumber/tree/main",
+        "exampleUrlName": "example"
+      },
+      {
         "date": "Feb 2023 - Now",
         "category": "work",
         "title": "DDX TECH",
@@ -310,7 +320,7 @@
       {
         "title": "2018",
         "category": "year",
-        "side": "left"
+        "side": "right"
       },
       {
         "date": "Nov 2018 - March 2020",
