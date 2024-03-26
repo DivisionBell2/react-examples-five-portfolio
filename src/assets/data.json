@@ -7,24 +7,50 @@
         "side": "right"
       },
       {
+        "date": "Apr 2024",
+        "category": "study",
+        "title": "",
+        "side": "right",
+        "description": "ended this portfolio page :)",
+        "skills": "javascript, react"
+      },
+      {
+        "date": "Feb 2024",
+        "category": "work",
+        "title": "DDX TECH",
+        "side": "left",
+        "description": "writed tests for client mobile app with WebdriverIO and typescript",
+        "skills": "automation mobile testing, typescript, webdriverio",
+        "exampleUrl": "https://github.com/DivisionBell2/wdio-ts-mobile",
+        "exampleUrlName": "example"
+      },
+      {
         "title": "2023",
         "category": "year",
         "side": "right"
+      },
+      {
+        "date": "Nov 2023",
+        "category": "study",
+        "title": "",
+        "side": "right",
+        "description": "studied React and writed some frontend projects for learning on clear react library and on nextjs framework. I don't show it because I'm embarrassed (:",
+        "skills": "javascript, typescript, react, nextjs"
       },
       {
         "date": "Sep 2023 - Now",
         "category": "work",
         "title": "DDX TECH",
         "side": "left",
-        "description": "started using performance testing with k6 for company services",
-        "skills": "performance testing k6"
+        "description": "started using performance testing with k6 (typescript) for company services",
+        "skills": "performance testing k6, typescript"
       },
       {
         "date": "Jul 2023 - Now",
         "category": "work",
         "title": "DDX TECH",
         "side": "left",
-        "description": "writed service for search and making test data for test stands of company. The cervice writed on nodejs and integrated to telegram bot. This service includes more than 40 data options for each of three stands",
+        "description": "writed service for search and making test data for test stands of company. The service writed on nodejs and integrated to telegram bot. This service includes more than 40 data options for each of three stands",
         "skills": "telegram bots, nodejs"
       },
       {
@@ -48,7 +74,7 @@
         "category": "study",
         "title": "",
         "side": "right",
-        "description": "studied selenium cucumber autotests with java",
+        "description": "studied selenium cucumber autotests with Java",
         "skills": "java, maven, cucumber",
         "exampleUrl": "https://github.com/DivisionBell2/java-selenium-cucumber/tree/main",
         "exampleUrlName": "example"
@@ -101,7 +127,7 @@
         "category": "work",
         "title": "DDX TECH",
         "side": "left",
-        "description": "started working on DDX Fitness company as the only one automation QA. Writed from scratch API and E2E autotests with Playwright (Typescript) for company web services and executing them with docker in Gitlab CI",
+        "description": "started working on DDX Fitness company as the only automation QA. Writed from scratch API and E2E autotests with Playwright (typescript) for company web services and executing them with docker in Gitlab CI",
         "skills": "automation ui testing, automation api testing, typescript, playwright, gitlab, ci, docker",
         "url": "https://www.ddxfitness.ru/",
         "urlName": "ddx site"
@@ -111,7 +137,7 @@
         "category": "work",
         "title": "DELOVAYA SREDA (SBER)",
         "side": "right",
-        "description": "Moved the company's e2e tests from CodeceptJS to Playwright (typescript) and started execution autotests in docker with gitlab CI.",
+        "description": "Moved the company's e2e tests from CodeceptJS to Playwright (typescript) and started execution autotests in docker with gitlab CI",
         "skills": "automation ui testing, typescript, playwright, gitlab, ci, qa learning, docker",
         "exampleUrl": "https://github.com/DivisionBell2/ds-playwright-testrunner",
         "exampleUrlName": "example"
@@ -134,7 +160,7 @@
         "category": "study",
         "title": "",
         "side": "left",
-        "description": "ended course of e2e testing with Jest (Typescript)",
+        "description": "ended course of e2e testing with Jest (typescript)",
         "skills": "ui testing, typescript, jest"
       },
       {
@@ -150,7 +176,7 @@
         "category": "work",
         "title": "DELOVAYA SREDA (SBER)",
         "side": "right",
-        "description": "projects started using load testing with JMeter",
+        "description": "started work with load testing (JMeter)",
         "skills": "performance testing, jmeter"
       },
       {
@@ -191,7 +217,7 @@
         "category": "work",
         "title": "DELOVAYA SREDA (SBER) -> RBO",
         "side": "right",
-        "description": "started developing E2E tests from scratch for the project with CodeceptJS (Typescript). Implemented execution of automated tests in CI (Teamcity, Moon)",
+        "description": "started developing E2E tests from scratch for the project with CodeceptJS (typescript). Implemented execution of automated tests in CI (Teamcity, Moon)",
         "skills": "automation ui testing, typescript, codeceptjs, teamcity, moon, allure"
       },
       {
@@ -217,7 +243,7 @@
         "category": "work",
         "title": "DELOVAYA SREDA (SBER) -> RBO",
         "side": "right",
-        "description": "started developing API tests from scratch for all microservices of the project with RestAssured (Java). Implemented execution of automated tests in CI (Teamcity)",
+        "description": "work on writing API tests from scratch for all microservices of the project with RestAssured (Java). Implemented execution of automated tests in CI (Teamcity)",
         "skills": "automation api testing, java, restassured, testng, maven, teamcity, allure",
         "exampleUrl": "https://github.com/DivisionBell2/api-ms-tests-java",
         "exampleUrlName": "example"
@@ -227,7 +253,7 @@
         "category": "work",
         "title": "DELOVAYA SREDA (SBER) -> RBO",
         "side": "right",
-        "description": "started working on an online business registration project at Delovaya Sreda as a QA specialist",
+        "description": "work on an online business registration project at Delovaya Sreda as a QA specialist",
         "skills": "manual web testing, microservices",
         "url": "https://rbo.dasreda.ru/",
         "urlName": "rbo.dasreda.ru"
@@ -242,7 +268,7 @@
         "category": "work",
         "title": "FORWARD",
         "side": "left",
-        "description": "worked on a device leasing project as an UI auto tester with Selenide (Java)",
+        "description": "work on  device leasing project as an UI auto tester with Selenide (Java)",
         "skills": "automation web testing, java, selenium, selenide, testng, gradle, allure",
         "url": "https://forward-leasing.ru/",
         "urlName": "forward-leasing.ru",
@@ -254,7 +280,7 @@
         "category": "work",
         "title": "FORWARD",
         "side": "left",
-        "description": "worked on a device leasing project as an API auto tester with RestAssured (Java)",
+        "description": "work on device leasing project as an API auto tester with RestAssured (Java)",
         "skills": "automation api testing, java, restassured, testng, gradle, allure",
         "url": "https://forward-leasing.ru/",
         "urlName": "forward-leasing.ru",
@@ -266,7 +292,7 @@
         "category": "work",
         "title": "KAVICHKI -> POBEDA",
         "side": "right",
-        "description": "worked on the project of airline company Pobeda as manual tester",
+        "description": "work on the project of airline company Pobeda as manual tester",
         "skills": "manual web testing",
         "url": "https://pobeda.aero/",
         "urlName": "pobeda.aero"
@@ -276,7 +302,7 @@
         "category": "work",
         "title": "KAVICHKI -> BUTIK.RU",
         "side": "right",
-        "description": "started writing automated API tests with codecept and gazzle client (PHP) as part of the project",
+        "description": "work for writing automated API tests with codecept and gazzle client (PHP) as part of the project",
         "skills": "manual web testing, automation web testing, automation api testing, php, codecept, gazzle, docker, allure",
         "url": "https://github.com/DivisionBell2/webapp-service-integration-tests/tree/master",
         "urlName": "example"
@@ -286,7 +312,7 @@
         "category": "work",
         "title": "KAVICHKI -> BUTIK.RU",
         "side": "right",
-        "description": "started writing automated tests for the mobile web with codecept (PHP) as part of the project",
+        "description": "work for  writing automated UI tests for the mobile web with codecept (PHP) as part of the project",
         "skills": "manual web testing, automation web testing, php, codecept, docker, allure",
         "url": "https://github.com/DivisionBell2/mobile-acceptance-tests",
         "urlName": "example"
@@ -296,7 +322,7 @@
         "category": "work",
         "title": "KAVICHKI -> BUTIK.RU",
         "side": "right",
-        "description": "started supporting all existing autotests on the project as the only autotester",
+        "description": "work for supporting all existing autotests on the project as the only autotester",
         "skills": "manual web testing, automation web testing, java, selenium, testng, maven, allure"
       },
       {
@@ -304,7 +330,7 @@
         "category": "work",
         "title": "KAVICHKI -> BUTIK.RU",
         "side": "right",
-        "description": "started writing automated tests for the mobile web with selenium (Java) as part of the project",
+        "description": "work for writing automation tests for the mobile web with selenium (Java) as part of the project",
         "skills": "manual web testing, automation web testing, java, selenium, allure",
         "url": "https://github.com/DivisionBell2/UI-Java-web-mobile-tests-for-internet-shop",
         "urlName": "example"
@@ -314,7 +340,7 @@
         "category": "work",
         "title": "KAVICHKI -> BUTIK.RU",
         "side": "right",
-        "description": "worked on the project of online store butik.ru (now no longer exists) as manual tester",
+        "description": "work on the project of online store butik.ru (now no longer exists) as manual tester",
         "skills": "manual web testing"
       },
       {
@@ -327,7 +353,7 @@
         "category": "work",
         "title": "KAVICHKI",
         "side": "right",
-        "description": "worked at Kavichki company on several projects, such as Disney.ru and the Chaihona N1 mobile application, as outstaff tester. The main projects are Butik.ru and Pobeda",
+        "description": "work at Kavichki company on several projects, such as Disney.ru and the Chaihona N1 mobile application, as outstaff tester. The main projects are Butik.ru and Pobeda",
         "url": "https://kavichki.com/",
         "urlName": "Kavichki site",
         "skills": "manual mobile testing, manual web testing"
