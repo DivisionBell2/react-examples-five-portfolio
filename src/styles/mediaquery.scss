@@ -423,11 +423,11 @@
   }
 
   #work {
-    min-height: 130vh;
+    min-height: 120vh;
     .workItem {
       
       .workItemBody {
-        min-height: 80vh;
+        min-height: 70vh;
         flex-direction: column;
         justify-content: space-evenly;
         
@@ -469,6 +469,7 @@
   }
 
   #contact {
+    width: 100%;
     grid-template-columns: 1fr;
 
     >aside {
