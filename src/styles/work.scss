@@ -1,5 +1,6 @@
 #work {
   width: 100%;
+  min-height: 100vh;
   background-color: $color5;
   color: $color4;
   overflow: hidden;
@@ -36,6 +37,7 @@
     .workItem {
       overflow-y: auto;
       width: 90%;
+      min-height: 70vh;
       margin: auto;
       background-color: $color4;
       display: flex;

@@ -44,8 +44,8 @@
           }
 
           >.primary svg {
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
             margin: 0 20px;
           }
 
@@ -58,7 +58,7 @@
 
         >aside {
           >p {
-            font: 500 1.4rem $text1;
+            font: 500 1.3rem $text1;
           }
         }
       }
@@ -80,7 +80,7 @@
   }
 
   #services {
-    height: 100vh;
+    height: 150vh;
     padding-top: 3rem;
     padding-bottom: 3rem;
 
@@ -138,8 +138,8 @@
           }
 
           >.primary svg {
-            width: 100px;
-            height: 100px;
+            width: 70px;
+            height: 70px;
             margin: 0 20px;
           }
 
@@ -152,7 +152,7 @@
 
         >aside {
           >p {
-            font: 500 1.4rem $text1;
+            font: 500 1.1rem $text1;
           }
         }
       }
@@ -162,7 +162,6 @@
 
 @media screen and (max-width: 900px) {
   #services {
-    height: 100vh;
     padding-top: 3rem;
     padding-bottom: 3rem;
 
@@ -227,8 +226,8 @@
         > div {
           width: 100%;
           >.primary svg {
-            width: 80px;
-            height: 80px;
+            width: 60px;
+            height: 60px;
             margin: 0 15px;
           }
         }
@@ -238,7 +237,7 @@
 
           > p {
             text-align: center;
-            font: 500 1.4rem $text2;
+            font: 500 1.2rem $text2;
           }
         }
       }
@@ -290,7 +289,7 @@
       
       .serviceBox1 {
         grid-column: 1 / 4;
-        height: 30vh;
+        height: 50vh;
         grid-row: unset;
 
         >h3 {
@@ -420,6 +419,42 @@
       .serviceBox1 {
         grid-row: unset;
       }
+    }
+  }
+
+  #work {
+    min-height: 130vh;
+    .workItem {
+      
+      .workItemBody {
+        min-height: 80vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        > div {
+          width: 100%;
+          >.primary svg {
+            width: 50px;
+            height: 50px;
+            margin: 0 15px;
+          }
+          >.secondary svg {
+            width: 50px;
+            height: 50px;
+            margin: 0 15px;
+          }
+        }
+
+        > aside {
+          width: 100%;
+
+          > p {
+            text-align: center;
+            font: 500 1.1rem $text2;
+          }
+        }
+      }
+      
     }
   }
 
