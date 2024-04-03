@@ -16,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <HeaderPhone menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <p className="mock">This screen height is too small for me ;)</p>
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Services />
       <Timeline />
@@ -26,37 +27,5 @@ function App() {
     </div>
   )
 }
-
-// function App() {
-
-//   const [menuOpen, setMenuOpen] = useState(false);
-//   const [ratio, setRatio] = useState(window.innerWidth / window.innerHeight);
-//   console.log(ratio);
-//   useEffect(() => {
-//     const resizeRatio = () => {
-//       setRatio(window.innerWidth / window.innerHeight);
-//     }
-//     window.addEventListener("resize", resizeRatio);
-
-//     return () => {
-//       window.removeEventListener("resize", resizeRatio);
-//     }
-//   }, [ratio]);
-
-//   return ratio <2 ? (
-//     <div className="App">
-//       <HeaderPhone menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-//       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-//       <Home ratio={ ratio } />
-//       <Work />
-//       <Timeline />
-//       <Services />
-//       <Testimonial />
-//       <Contact />
-//       <Footer />
-//       <Toaster />
-//     </div>
-//   ) : <em id="customMessage"> Please Change the ratio to View!</em>
-// }
 
 export default App;

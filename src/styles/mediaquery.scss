@@ -1,3 +1,29 @@
+@media screen and (max-height: 750px) {
+  #services {
+    display: none;
+  }
+  
+  #timeline {
+    display: none;
+  }
+  #work {
+    display: none;
+  }
+  #contact {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  body div div .mock {
+    display: block;
+    margin: 50vh auto 50vh auto;
+    font: 100 1.5rem $text2;
+    text-align: center;
+    color: $color6
+  }
+}
+
 @media screen and (max-width: 1590px) {
   nav {
     position: fixed;

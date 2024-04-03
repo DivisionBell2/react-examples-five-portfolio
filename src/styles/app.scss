@@ -25,6 +25,10 @@ body {
     background-color: $color1;
     overflow-x: hidden;
     max-width: 1920px;
+
+    .mock {
+        display: none;
+    }
 }
 
 .disableBtn {

@@ -4,7 +4,8 @@
       {
         "title": "2024",
         "category": "year",
-        "side": "right"
+        "side": "right",
+        "class": "2024"
       },
       {
         "date": "Apr 2024",
@@ -12,7 +13,8 @@
         "title": "",
         "side": "right",
         "description": "ended this portfolio page :)",
-        "skills": "javascript, react"
+        "skills": "javascript, react",
+        "class": "2024item"
       },
       {
         "date": "Feb 2024",
