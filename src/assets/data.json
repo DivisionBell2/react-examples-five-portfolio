@@ -4,8 +4,16 @@
       {
         "title": "2024",
         "category": "year",
-        "side": "right",
+        "side": "left",
         "class": "2024"
+      },
+      {
+        "date": "May 2024",
+        "category": "work",
+        "title": "DDX TECH",
+        "side": "left",
+        "description": "writed autotests for client mobile app with Appium Java and Selenide",
+        "skills": "java, appium, selenide, maven, automation mobile testing"
       },
       {
         "date": "Apr 2024",
@@ -21,7 +29,7 @@
         "category": "work",
         "title": "DDX TECH",
         "side": "left",
-        "description": "writed tests for client mobile app with WebdriverIO and typescript",
+        "description": "writed autotests for client mobile app with WebdriverIO and typescript",
         "skills": "automation mobile testing, typescript, webdriverio",
         "exampleUrl": "https://github.com/DivisionBell2/wdio-ts-mobile",
         "exampleUrlName": "example"
